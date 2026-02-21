@@ -33,7 +33,6 @@ body{
     position: relative;
     margin: 0 auto;
     overflow: hidden;
-    border: 1px solid red;
 
 }
 header{
@@ -60,7 +59,6 @@ nav{
 nav a{
     color: inherit;
     text-decoration: none;
-
     font-size: 1rem;
     letter-spacing: 0.1rem;
     transition: color 0.2s ease;
@@ -99,7 +97,6 @@ main{
     max-width: 40rem;
     margin-left: 10%;
     z-index: 999;
-    border: 1px solid yellow;
 }
 .box{
     position: relative;
@@ -190,23 +187,26 @@ main{
 }
 .robot{
     position: absolute;
-    top: 0;
+    top: -25%;
     right: -25%;
+
 }
 
 /* TABLET RESPONSIVE */
-@media (max-width: 1300px){
+@media (max-width: 1136px){
     header{
         padding: 1rem 0.5rem;
     }
-    
+    main{
+        left: -30%;
+    }
     .content{
-        margin-top: 85%;
+        left: -30%;
     }
 
     .robot{
         scale: 0.6;
-        top: -20%;
+        top: -35%;
         right: 2%;
     }
 }
@@ -236,7 +236,7 @@ main{
 
     .robot{
         scale: 1;
-        top: -25%;
+        top: -40%;
         right: 0;
     }
 
@@ -281,7 +281,7 @@ main{
     }
 
     .robot{
-        top: -28%;
+        top: -40%;
         right: 0;
     }
 
