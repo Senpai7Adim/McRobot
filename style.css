@@ -63,11 +63,13 @@ nav a{
     letter-spacing: 0.1rem;
     transition: color 0.2s ease;
     text-decoration: none;
-    color: inherit;
+    z-index: 999;
+
 
 }
 nav a:hover{
-    color: #a7a7a7;
+    color: #5300a0;
+    border-bottom: 2px solid #5300a5 ;
 }
 
 .sign{
@@ -80,6 +82,7 @@ nav a:hover{
     font-weight: 500;
     transition: background-color 0.2s ease;
     cursor: pointer;
+    z-index: 999;
 }
 .sign:hover{
     background-color: white;
@@ -193,7 +196,7 @@ main{
 }
 
 /* TABLET RESPONSIVE */
-@media (max-width: 1136px){
+@media (max-width: 1000px){
     header{
         padding: 1rem 0.5rem;
     }
@@ -213,7 +216,7 @@ main{
 
 
 /* MOBILE RESPONSIVE */
-@media (max-width: 768px){
+@media (max-width: 989px){
     header{
         padding: 1rem 0.1rem;
     }
