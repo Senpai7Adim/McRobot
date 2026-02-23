@@ -1,7 +1,7 @@
 # 🤖 McRobot - Developer Email Landing Page
 
 ## 🚀 Live Demo
-👉 https://supabase-blog-chi.vercel.app/ 
+👉 https://senpai7adim.github.io/McRobot/
 
 ---
 
